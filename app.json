@@ -1,0 +1,9 @@
+{
+	"reponame":"gset_phonegap_2013",
+	"caption":"PhoneGap Test Application",
+	"tooltip":"PhoneGap Test Application",
+	"description":"Test a variety of system-level functions including the Camera and Processing Speed",
+	"articleurl":"http://rmathur.com",
+	"categories":["PhoneGap"],
+	"visible": "false"
+}
