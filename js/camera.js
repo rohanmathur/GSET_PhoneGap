@@ -68,7 +68,7 @@ function onCapture(e) {
     
     navigator.camera.getPicture(onCaptureSuccess, onCaptureError, { quality : 100, 
                                                                     destinationType : Camera.DestinationType.FILE_URI, 
-                                                                    sourceType : Camera.PictureSourceType.PHOTOLIBRARY, 
+                                                                    sourceType : Camera.PictureSourceType.CAMERA;, 
                                                                     allowEdit : true, 
                                                                     encodingType : (typeof Camera !== "undefined") ? Camera.EncodingType.JPEG : 0,
                                                                     targetWidth : 1000,
