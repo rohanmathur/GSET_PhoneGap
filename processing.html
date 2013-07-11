@@ -20,8 +20,9 @@
 
             endtime = new Date().getTime()/1000
             speedtime = endtime - begintime
+            speedtime = speedtime * 1000
 
-            document.write(speedtime)
+            document.write("The calculations took " + speedtime + " milliseconds.")
         </script>
     </body>
 </html>
