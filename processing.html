@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PhoneGap Testing Application</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1"> 
+    </head>
+    
+    <body onload="onLoad()">
+	<script type="text/javascript">
+            begintime = new Date().getTime()/1000
+
+            for(i = 0; i<100; ++i) {
+                a = Math.random() * 11
+                b = Math.random() * 11
+                x = Math.floor(a) 
+                y = Math.floor(b)
+
+                z = x * y;
+            }   
+
+            endtime = new Date().getTime()/1000
+            speedtime = endtime - begintime
+
+            document.write(speedtime)
+        </script>
+    </body>
+</html>
