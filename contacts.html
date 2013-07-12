@@ -33,41 +33,7 @@
             <div data-role="header" data-position="fixed" data-tap-toggle="false">
                 
                 <div id="full_list_button_container"></div>
-                <h3>PhoneGap Contacts API Sample</h3>
-                <a href="#options_popup" id="options_button" data-rel="popup" data-role="button" data-mini="true" data-theme="b" class="ui-btn-right">Options</a>
-                
-                <!-- Options PopUp -->
-                <div data-role="popup" id="options_popup" data-theme="none">
-                    
-                    <div data-role="collapsible-set" >
-                        
-                        <div id="search_chooser_button" data-role="collapsible" data-theme="b" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-inset="false" data-collapsed="true">
-                            <h2 onclick='openSearchChooser(event);'>Advanced search</h2>
-                        </div>
-                        
-                        <div data-role="collapsible" data-theme="b" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-inset="false" data-collapsed="true">
-                            <h2>Contacts sort order...</h2>
-                            <ul data-role="listview">
-                                <li><a href="#cont_list_page" onclick="setSortPref(0)">Ascending</a></li>
-                                <li><a href="#cont_list_page" onclick="setSortPref(1)">Descending</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div data-role="collapsible" data-theme="b" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-inset="false" data-collapsed="true">
-                            <h2>Display contact name as...</h2>
-                            <ul data-role="listview">
-                                <li><a href="#cont_list_page" onclick="setDisplPref(0)">Name Surname</a></li>
-                                <li><a href="#cont_list_page" onclick="setDisplPref(1)">Surname Name</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div id="new_contact_button" data-role="collapsible" data-theme="b" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-inset="false" data-collapsed="true">
-                            <h2 onclick="onNewContact(event);">New contact</h2>
-                        </div>
-                        
-                    </div><!-- end: Collapsible-set -->
-                    
-                </div><!-- end: Options popup -->
+                <h3>PhoneGap Contacts</h3>
                 
             </div><!-- end: Header -->
             
@@ -78,7 +44,7 @@
                 </div>
                 
                 <div data-role="popup" id="exit_popup" class="ui-content" data-theme="e" data-history="false">
-                    <p>Press backbutton again to exit the application.</p>
+                    <p>Press the back button again to exit the application.</p>
                 </div>
                 
             </div><!-- end: Content -->
