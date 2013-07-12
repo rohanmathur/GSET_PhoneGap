@@ -296,7 +296,7 @@ function showInfo(contactID, searchCriteria) {
                                         "<img src='" + 
                                         ((contacts[i].photos && (contacts[i].photos.length > 0) && !isEmptyOrBlank(contacts[i].photos[0].value) && (contacts[i].photos[0].value.indexOf("//:0") === -1)) 
                                             ? contacts[i].photos[0].value 
-                                            : "resources/nophoto.jpg") + 
+                                            : "images/nophoto.jpg") + 
                                         "' width='50' height='50' />" +
                                     "</div>";
                 

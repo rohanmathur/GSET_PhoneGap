@@ -191,7 +191,7 @@ function DisplayableContactList(contListContainer) {
             if ((contacts[i].photos) && (contacts[i].photos.length > 0) && !isEmptyOrBlank(contacts[i].photos[0].value) && (contacts[i].photos[0].value.indexOf("//:0") === -1)) {
                 cPhoto = contacts[i].photos[0].value;
             } else {
-                cPhoto = "resources/nophoto.jpg";
+                cPhoto = "images/nophoto.jpg";
             }
             // Without the following string the contact avatar in the contact list would not be refreshed
             // because of caching (but it prevents displaying pictures in the Emulator). 
