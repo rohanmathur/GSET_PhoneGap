@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Video Player</title>
+      <script>
+         $(document).on('pagebeforecreate orientationchange', Application.updateIcons);
+         $(document).one('deviceready', Application.initApplication);
+      </script>
+   </head>
+   <body>
+      <video controls>
+         <source src="/sdcard/Videos/one.mp4" type="video/mp4">
+         Sorry, the video failed to load
+      </video>
+   </body>
+</html>
